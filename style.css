@@ -69,3 +69,10 @@ footer {
     padding: 20px;
     margin-top: 40px;
 }
+img{
+width: 400px;
+  height: 400px;
+  display: block; /* Transforma a imagem em bloco */
+  margin: 0 auto; /* Alinha os lados automaticamente */
+
+}
