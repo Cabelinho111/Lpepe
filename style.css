@@ -124,14 +124,13 @@ footer {
     .banner {
         max-height: 220px;
     }
-}
 .imagem-vertical{
-    display:block;
-    width:35%;
-    max-width:260px;
-    height:auto;
-    margin:20px auto;
-    border-radius:10px;
+    display: block;
+    width: 45%;
+    max-width: 340px;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
 }
 .imagem-horizontal{
     display:block;
@@ -140,4 +139,14 @@ footer {
     height:auto;
     margin:20px auto;
     border-radius:10px;
+}
+.imagem-media{
+    display: block;
+    width: 60%;
+    max-width: 450px;
+    max-height: 320px;
+    height: auto;
+    object-fit: contain;
+    margin: 20px auto;
+    border-radius: 10px;
 }
