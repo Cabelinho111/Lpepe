@@ -16,13 +16,13 @@ header {
 }
 
 /* Banner */
-.banner{
+.banner {
     display: block;
     width: 100%;
     max-width: 1200px;
-    height: 220px;
-    object-fit: cover;
+    height: auto;
     margin: 0 auto;
+}
 }  /* impede que a imagem seja cortada */
 
 
@@ -76,8 +76,8 @@ p {
 /* Imagens dos jogos */
 .imagem-conteudo {
     display: block;
-    width: 60%;
-    max-width: 500px;
+    width: 70%;
+    max-width: 600px;
     height: auto;
     margin: 20px auto;
     border-radius: 10px;
