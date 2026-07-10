@@ -1,83 +1,126 @@
+/* Configurações gerais */
 body {
-    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
     background-color: #f2f2f2;
     color: #333;
 }
 
+/* Cabeçalho */
 header {
-    background-color: #e60012;
+    background: linear-gradient(to bottom, #e60012, #d60000);
     color: white;
     text-align: center;
-    padding: 20px;
+    padding-bottom: 30px;
 }
 
-header img {
+/* Banner */
+.banner {
     width: 100%;
-    max-height: 350px;
-    object-fit: cover;
+    max-height: 320px;
+    height: auto;
+    display: block;
+    object-fit: contain;   /* impede que a imagem seja cortada */
 }
 
-header h1 {
-    margin-top: 20px;
-    font-size: 40px;
+/* Título principal */
+h1 {
+    margin: 20px 0 10px;
+    font-size: 48px;
 }
 
+/* Subtítulo */
 header p {
-    max-width: 900px;
-    margin: 20px auto;
+    width: 70%;
+    margin: auto;
+    font-size: 20px;
     line-height: 1.6;
-    font-size: 18px;
 }
 
+/* Área principal */
 main {
     width: 90%;
-    max-width: 1000px;
-    margin: 30px auto;
+    max-width: 1200px;
+    margin: 40px auto;
 }
 
+/* Cards */
 section {
     background: white;
-    margin-bottom: 30px;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+    margin-bottom: 35px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.15);
 }
 
-section h2 {
-    color: #e60012;
+/* Títulos */
+h2 {
+    color: #d60000;
+    font-size: 34px;
 }
 
-section img {
-    display: block;
-    width: 100%;
-    max-width: 700px;
-    margin: 15px auto;
-    border-radius: 10px;
+h3 {
+    color: #d60000;
 }
 
-section p {
-    font-size: 17px;
-    line-height: 1.6;
+/* Parágrafos */
+p {
+    font-size: 20px;
     text-align: justify;
+    line-height: 1.8;
 }
 
+/* Imagens dos jogos */
+.imagem-conteudo {
+    display: block;
+    width: 75%;
+    max-width: 650px;
+    height: auto;      /* mantém a proporção */
+    margin: 25px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+/* Todas as imagens */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Rodapé */
 footer {
-    background-color: #222;
+    background-color: #d60000;
     color: white;
     text-align: center;
     padding: 20px;
     margin-top: 40px;
 }
-img {
-    display: block;
-    width: 60%;
-    max-width: 450px;
-    height: auto;
-    margin: 20px auto;
-    border-radius: 10px;
-}
-mario64.jpg{
 
-    
+/* Responsividade */
+@media (max-width: 768px) {
+
+    h1 {
+        font-size: 34px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 17px;
+    }
+
+    header p {
+        width: 90%;
+    }
+
+    .imagem-conteudo {
+        width: 90%;
+    }
+
+    .banner {
+        max-height: 220px;
+    }
 }
