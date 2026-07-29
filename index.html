@@ -97,6 +97,12 @@ graças a uma jogabilidade aperfeiçoada dês dos últimos jogos até esse, perm
 
 </body>
 <script>
-
+ <button>👍<span>0</span></button>
+const botao = document.querySelector("button");
+botao.addEventListener("click", botaoClicado);
+function botaoClicado() {
+let texto = botao.querySelector("span");
+texto.textContent++;
+}
 </script>
 </html>
