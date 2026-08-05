@@ -100,7 +100,7 @@ footer {
 /* Botão */
 button {
     size: 40px;
-    
+    box-align: center;
 }
 
 /* Responsividade */
