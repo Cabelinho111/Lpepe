@@ -84,7 +84,7 @@ p {
 
 /* Todas as imagens */
 img {
-    max-width: 100%;
+    max-width: 15%;
     height: auto;
 }
 
@@ -95,6 +95,12 @@ footer {
     text-align: center;
     padding: 20px;
     margin-top: 40px;
+}
+
+/* Botão */
+button {
+
+
 }
 
 /* Responsividade */
