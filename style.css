@@ -85,7 +85,7 @@ p {
 /* Todas as imagens */
 img {
     max-width: 100%;
-    align-self: center;
+    box-align: center;
     height: auto;
 }
 
