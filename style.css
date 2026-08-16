@@ -82,6 +82,13 @@ p {
     border-radius: 10px;
 }
 
+.imagem-primeiro{
+    display: block;
+    width: 55%;
+    height: auto;
+    border-radius: 10px;
+}
+
 /* Todas as imagens */
 img {
     max-width: 100%;
@@ -176,13 +183,5 @@ button {
     margin: 20px auto;
     border-radius: 10px;
 }
-/* Primeira imagem menor */
-.imagem-primeiro{
-    display: block;
-    width: 55% !important;
-    max-width: 500px;
-    height: auto;
-    margin: 20px auto;
-    border-radius: 10px;
-}
+
 }
