@@ -100,8 +100,8 @@ footer {
 
 /* button */
 button {
-    size: 100px;
-    box-align: center;
+    size: 200px;
+    align-items: center;
 }
 
 /* Responsividade */
