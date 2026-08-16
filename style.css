@@ -22,7 +22,7 @@ header {
     height: auto;
     margin: 0 auto;
 }
-}  /* impede que a imagem seja cortada */
+  /* impede que a imagem seja cortada */
 
 
 /* Título principal */
@@ -184,4 +184,4 @@ button {
     margin: 20px auto;
     border-radius: 10px;
 }
-
+}
