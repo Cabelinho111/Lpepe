@@ -176,7 +176,7 @@ button {
 /* Primeira imagem menor */
 .imagem-primeiro{
     display: block;
-    width: 55%;
+    width: 55% !important;
     max-width: 500px;
     height: auto;
     margin: 20px auto;
